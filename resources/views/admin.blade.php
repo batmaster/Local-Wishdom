@@ -10,8 +10,8 @@
 </ul>
 
 <ul class="nav nav-sidebar">
-    <li><a>ค้นหา</a></li>
-    <li><a>เพิ่มผู้ดูแลระบบ</a></li>
+    <li><a href="{{ URL::to('/admin?sub=search') }}">ค้นหา</a></li>
+    <li><a href="{{ URL::to('/admin?sub=add') }}">เพิ่มผู้ดูแลระบบ</a></li>
 </ul>
 @endsection
 

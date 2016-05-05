@@ -9,8 +9,8 @@
     <link rel="stylesheet" type="text/css" href="css/sticky-footer.css">
     <link rel="stylesheet" href="css/dashboard.css">
 
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/npm.js"></script>
 
 </head>
 <body>
@@ -24,10 +24,10 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li {{ (Request::is('/admin') ? 'class=active' : '') }}><a href="{{ URL::to('/admin') }}">ผู้ดูแลระบบ</a></li>
-                    <li {{ (Request::is('/member') ? 'class=active' : '') }}><a href="{{ URL::to('/member') }}">สมาชิก</a></li>
-                    <li {{ (Request::is('/wisdom') ? 'class=active' : '') }}><a href="{{ URL::to('/wisdom') }}">ข้อมูลภูมิปัญญาชาวบ้าน</a></li>
-                    <li {{ (Request::is('/philosopher') ? 'class=active' : '') }}><a href="{{ URL::to('/philosopher') }}">ข้อมูลผู้เชี่ยวชาญปราชญ์ชาวบ้าน</a></li>
+                    <li {{ (Request::path() == 'admin' ? 'class=active' : '') }}><a href="{{ URL::to('/admin') }}">ผู้ดูแลระบบ</a></li>
+                    <li {{ (Request::path() == 'member' ? 'class=active' : '') }}><a href="{{ URL::to('/member') }}">สมาชิก</a></li>
+                    <li {{ (Request::path() == 'wisdom' ? 'class=active' : '') }}><a href="{{ URL::to('/wisdom') }}">ข้อมูลภูมิปัญญาชาวบ้าน</a></li>
+                    <li {{ (Request::path() == 'philosopher' ? 'class=active' : '') }}><a href="{{ URL::to('/philosopher') }}">ข้อมูลผู้เชี่ยวชาญปราชญ์ชาวบ้าน</a></li>
 
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">รายงาน <span class="caret"></span></a>

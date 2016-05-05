@@ -27,5 +27,9 @@ Route::get('/admin', function () {
 
 Route::get('/member', function () {
     $sub = Input::get('sub', '');
+    if ($sub != 'search' && $sub != 'add') {
+        $sub = 'search';
+    }
+
     return view('member', ['sub' => $sub]);
 });
