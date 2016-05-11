@@ -33,15 +33,15 @@
         </div>
 
         <div class="item">
-            <img src="http://www.bbcgoodfood.com/sites/default/files/glossary/banana-crop.jpg" alt="Chania" height="widthSet" width="heightSet">
+            <img src="http://www.bbcgoodfood.com/sites/default/files/glossary/banana-crop.jpg" alt="Chania">
         </div>
 
         <div class="item">
-            <img src="http://www.pitara.com/wordpress/wp-content/uploads/2002/09/dromedary-camel.jpg" alt="Flower" height="widthSet" width="heightSet">
+            <img src="http://www.pitara.com/wordpress/wp-content/uploads/2002/09/dromedary-camel.jpg" alt="Flower">
         </div>
 
         <div class="item">
-            <img src="http://hxcorp.com.vn/public/userupload/images/durian%20(1).jpg" alt="Flower" height="widthSet" width="heightSet">
+            <img src="http://hxcorp.com.vn/public/userupload/images/durian%20(1).jpg" alt="Flower">
         </div>
     </div>
 
