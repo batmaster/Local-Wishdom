@@ -12,6 +12,44 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
+    <style>
+      /*.widthSet {
+        max-width: 500px;
+      }
+
+      .heightSet {
+        max-height: 300px;
+      }*/
+      img{
+        /*width:100%;
+        height:100%;*/
+        overflow: hidden;
+        /*style: "width: inherit"*/
+        /*max-width:500px;*/
+        /*height:200px;
+        width:auto;*/
+        /*height:sauto;*/
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -25%);
+        height: 100%;
+        width:auto;
+        position:relative;
+        background-size: cover;
+        background-position: center center;
+        object-fit: cover;
+      }
+      .con{
+        height: 100%;
+        height: 300px;
+        min-height: 200px;
+        /*vertical-align: center;*/
+         position:relative;
+        overflow: hidden;
+        display: block;
+      }
+    </style>
+
 </head>
 <body>
     <

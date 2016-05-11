@@ -27,21 +27,21 @@
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner con" role="listbox">
         <div class="item active">
             <img src="http://sites.psu.edu/siowfa15/wp-content/uploads/sites/29639/2015/09/04_Apples.jpg" alt="Chania">
         </div>
 
         <div class="item">
-            <img src="http://www.bbcgoodfood.com/sites/default/files/glossary/banana-crop.jpg" alt="Chania">
+            <img src="http://www.bbcgoodfood.com/sites/default/files/glossary/banana-crop.jpg" alt="Chania" height="widthSet" width="heightSet">
         </div>
 
         <div class="item">
-            <img src="http://www.pitara.com/wordpress/wp-content/uploads/2002/09/dromedary-camel.jpg" alt="Flower">
+            <img src="http://www.pitara.com/wordpress/wp-content/uploads/2002/09/dromedary-camel.jpg" alt="Flower" height="widthSet" width="heightSet">
         </div>
 
         <div class="item">
-            <img src="http://hxcorp.com.vn/public/userupload/images/durian%20(1).jpg" alt="Flower">
+            <img src="http://hxcorp.com.vn/public/userupload/images/durian%20(1).jpg" alt="Flower" height="widthSet" width="heightSet">
         </div>
     </div>
 
