@@ -1,5 +1,5 @@
 <div class="panel panel-default">
-    <div class="panel-heading">ข้อมูลสมาชิก</div>
+    <div class="panel-heading">ราคาสินค้าภูมิปัญญา OTOP</div>
     <div class="panel-body">
 
         <div class="form-group">
@@ -16,8 +16,7 @@
                 <tr>
                     <th>ID</th>
                     <th>ชื่อ</th>
-                    <th>อีเมล์</th>
-                    <th>เบอร์โทร</th>
+                    <th>ประเภท</th>
                     <th>สถานะ</th>
                 </tr>
             </thead>
@@ -25,22 +24,19 @@
                 <tr>
                     <th>1</th>
                     <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <td>Bird</td>
                     <td>@fat</td>
                 </tr>
                 <tr>
                     <th>2</th>
-                    <td>Jacob</td>
                     <td>Thornton</td>
-                    <td>@fat</td>
+                    <td>Bird</td>
                     <td>@fat</td>
                 </tr>
                 <tr>
                     <th>3</th>
                     <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
+                    <td>Bird</td>
                     <td>@fat</td>
                 </tr>
             </tbody>

@@ -1,5 +1,5 @@
 <div class="panel panel-default">
-    <div class="panel-heading">ข้อมูลสมาชิก</div>
+    <div class="panel-heading">ข้อมูลผู้ดูแลระบบ</div>
     <div class="panel-body">
 
         <div class="form-group">

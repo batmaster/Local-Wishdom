@@ -22,7 +22,12 @@ Route::get('/', function () {
 });
 
 Route::get('/admin', function () {
-    return view('admin');
+    $sub = Input::get('sub', '');
+    if ($sub != 'search' && $sub != 'add') {
+        $sub = 'search';
+    }
+
+    return view('admin', ['sub' => $sub]);
 });
 
 Route::get('/member', function () {
@@ -32,4 +37,13 @@ Route::get('/member', function () {
     }
 
     return view('member', ['sub' => $sub]);
+});
+
+Route::get('/wisdom', function () {
+    $sub = Input::get('sub', '');
+    if ($sub != 'search' && $sub != 'add' && $sub != 'category' && $sub != 'otop' && $sub != 'picture') {
+        $sub = 'search';
+    }
+
+    return view('wisdom', ['sub' => $sub]);
 });
